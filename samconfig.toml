@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "translator"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-117ciei13r19c"
+s3_prefix = "translator"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=803394216630.dkr.ecr.us-east-1.amazonaws.com/translator607f2f30/helloworldfunction19d43fc4repo"]
